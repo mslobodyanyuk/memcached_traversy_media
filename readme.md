@@ -22,11 +22,13 @@ Intro To Memcached
 	  
 - Deploy project:
 
-	Download the archieve with project files( Copy -> Download ZIP ).
+	Download the archieve with project files( Code -> Download ZIP ).
+	
+---	
 
 Traversy Media
 
-[Intro To Memcached]( https://www.youtube.com/watch?v=7MLXuG83Fsw&ab_channel=TraversyMedia )
+[Intro To Memcached (35:13)]( https://www.youtube.com/watch?v=7MLXuG83Fsw&ab_channel=TraversyMedia )
 
 In this video you will learn how to install and work with Memcached. You will learn the following...
 
@@ -48,12 +50,12 @@ In this video you will learn how to install and work with Memcached. You will le
 
 	sudo apt-get install memcached
 	ps -ef | grep -i memc
-	
-![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/master/public/images/1.png )	
+								
+![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/main/public/images/1.png )	
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/master/public/images/2.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/main/public/images/2.png )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/master/public/images/3.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/main/public/images/3.png )
 	
 [(3:25)]( https://youtu.be/7MLXuG83Fsw?t=205 )	
 
@@ -70,9 +72,9 @@ In this video you will learn how to install and work with Memcached. You will le
 	bar
 	get foo
 	
-![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/master/public/images/4.png )	
+![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/main/public/images/4.png )	
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/master/public/images/5.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/main/public/images/5.png )
 	
 [(5:42)]( https://youtu.be/7MLXuG83Fsw?t=342 )
 
@@ -98,9 +100,9 @@ In this video you will learn how to install and work with Memcached. You will le
 	replace num 0 3600 2
 	40
 	
-![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/master/public/images/6.png )	
+![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/main/public/images/6.png )	
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/master/public/images/7.png )	
+![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/main/public/images/7.png )	
 
 [(8:15)]( https://youtu.be/7MLXuG83Fsw?t=495 )
 
@@ -127,9 +129,9 @@ _- Everything is clear._
 
 	quit
 	
-![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/master/public/images/8.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/main/public/images/8.png )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/master/public/images/9.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/main/public/images/9.png )
 	
 [(9:55)]( https://youtu.be/7MLXuG83Fsw?t=595 )
 
@@ -137,7 +139,7 @@ _- Everything is clear._
 	
 	sudo apt-get install libmemcached-tools
 	
-![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/master/public/images/10.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/main/public/images/10.png )
 	
 [(10:35)]( https://youtu.be/7MLXuG83Fsw?t=635 )
 
@@ -145,9 +147,9 @@ _- Everything is clear._
 	memcstat --servers localhost
 	memcdump --servers localhost
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/master/public/images/11.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/main/public/images/11.png )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/master/public/images/12.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/main/public/images/12.png )
 
 [(11:40)]( https://youtu.be/7MLXuG83Fsw?t=700 )
 Open another one Terminal:
@@ -156,9 +158,9 @@ Open another one Terminal:
 	set foo 0 3600 3 
 	bar
 	
-![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/master/public/images/13.png )	
+![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/main/public/images/13.png )	
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/master/public/images/14.png )	
+![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/main/public/images/14.png )	
 	
 [(11:45)]( https://youtu.be/7MLXuG83Fsw?t=705 )
 Return to first Terminal:
@@ -171,7 +173,7 @@ At another one Terminal:
 	set name 0 3600 4
 	Brad
 	
-![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/master/public/images/15.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/main/public/images/15.png )
 
 [(12:08)]( https://youtu.be/7MLXuG83Fsw?t=728 )
 Return to first Terminal:
@@ -180,7 +182,7 @@ Return to first Terminal:
 	memccat --servers localhost name
 	memccat --servers localhost foo
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/master/public/images/16.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/main/public/images/16.png )
 
 	memcrm --servers localhost name
 	clear
@@ -193,21 +195,21 @@ Return to first Terminal:
 	for i in `seq 1000`; do echo $i >> book$i; done
 	ls
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/master/public/images/17.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/main/public/images/17.png )
 	
-![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/master/public/images/18.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/main/public/images/18.png )
 
 [(14:55)]( https://youtu.be/7MLXuG83Fsw?t=895 )
 
 	memccp --servers localhost book*
 	memcdump --servers localhost
 	
-![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/master/public/images/19.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/main/public/images/19.png )
 	
 	memccat --servers localhost book200		
 	memccat --servers localhost book[1-9]
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/master/public/images/20.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/main/public/images/20.png )
 
 [(16:20)]( https://youtu.be/7MLXuG83Fsw?t=980 )
 At another one Terminal:
@@ -216,7 +218,7 @@ At another one Terminal:
 	quit
 	exit
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/master/public/images/21.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/main/public/images/21.png )
 
 [(16:40)]( https://youtu.be/7MLXuG83Fsw?t=1000 )
 Return to first Terminal:
@@ -230,23 +232,23 @@ Return to first Terminal:
 
 	python --version
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/master/public/images/22.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/main/public/images/22.png )
 	
 	sudo apt-get install python-memcache
 	
-![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/master/public/images/23.png )	
+![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/main/public/images/23.png )	
 	
 	import memcache
 	mc = memcache.Client(['127.0.0.1:11211'], debug=0)
 	mc.set('greet', 'Hello World')
 	mc.get('greet')
 	
-![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/master/public/images/24.png )	
+![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/main/public/images/24.png )	
 
 [(19:10)]( https://youtu.be/7MLXuG83Fsw?t=1150 )
  Open another one Terminal:
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/master/public/images/25.png )	
+![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/main/public/images/25.png )	
 
 	telnet localhost 11211
 	mc.set('num', 40)
@@ -288,7 +290,7 @@ _Memcache class is no longer maintained - use Memcached class._
 	
 	sudo systemctl restart apache2
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/master/public/images/26.png )	
+![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/main/public/images/26.png )	
 
 	touch index.php
 
@@ -303,9 +305,9 @@ _Memcache class is no longer maintained - use Memcached class._
 	echo $mc->get('username');
 ```	
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/master/public/images/27.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/main/public/images/27.png )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/master/public/images/28.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/main/public/images/28.png )
 
 [(30:15)]( https://youtu.be/7MLXuG83Fsw?t=1815 )
 
@@ -333,7 +335,7 @@ _Memcache class is no longer maintained - use Memcached class._
     }
 ```
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/master/public/images/29.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/memcached_traversy_media/blob/main/public/images/29.png )
 
 [(33:20)]( https://youtu.be/7MLXuG83Fsw?t=2000 )
 
