@@ -369,3 +369,7 @@ Quick Notepad Tutorial
 [Example to use Memcached on PHP ( Memcached - Use it on PHP )]( https://www.youtube.com/watch?v=_wbuByP2HYs&ab_channel=QuickNotepadTutorial ) 
 
 _- File `use_memcached.php` in project folder for general information._  
+
+Артем Манченков
+
+[GeekBrains PHP 2 [Memcached]]( https://www.youtube.com/watch?v=5q4VoOOlwXw&ab_channel=%D0%90%D1%80%D1%82%D0%B5%D0%BC%D0%9C%D0%B0%D0%BD%D1%87%D0%B5%D0%BD%D0%BA%D0%BE%D0%B2 )
